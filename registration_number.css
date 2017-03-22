@@ -1,16 +1,35 @@
-p {
-    border-radius: 15px/50px;
-    background:#FFFF00;
-    padding: 20px;
-    width: 120px;
-    height: 20px;
-    border: 10px solid black;
-    align-text: center;
-    font-size: 25px;
+body {
+    background-color: yellow;
 }
 
-h1{
-  color: blue;
-  font-family: "Times New Roman", Times, serif;
+.regN {
+    background-color: lightgrey;
+    width: 300px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: 25px;
+    align-items: center;
+}
 
+h1 {
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    border-radius: 15px/100px;
+    background: #FFFF00;
+    padding: 20px;
+    width: 90px;
+    height: 5px;
+    border: 3px solid black;
+    text-align: left;
+    font-size: 20px;
+    border-style: solid;
+
+}
+.hidden{
+  display: none;
 }
